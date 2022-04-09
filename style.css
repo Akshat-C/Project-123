@@ -1,0 +1,13 @@
+canvas {
+    background-color: blue;
+    animation-name: can_sha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 5px groove royalblue;
+}
+
+@keyframes can_sha {
+    from {box-shadow: 2px 2px 60px #E4F9F5;}
+    to {box-shadow: 2px 2px 60px #11999E;}
+}
+
